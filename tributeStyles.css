@@ -1,0 +1,84 @@
+/* that basic thing stying */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background-color: lightgray;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.first-p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Styling for image */
+.profile-img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 600px;
+  height: 600px;
+  border-radius: 25%;
+  object-fit: cover;
+}
+
+/* Content section styling */
+.content {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+  color: #361717;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* List styling */
+ul {
+  list-style-type: circle;
+  text-align: left;
+  display: inline-block;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
